@@ -71,7 +71,7 @@ const PORT = process.env.PORT || 3001;
 const IP = process.env.IP || "127.0.0.1";
 const app = express();
 app.get("/api", (req, res) => {
-  getPostsHabr(5);
+  getPostsHabr(10);
   let rawdata = fs.readFileSync('./my.json');
   let student = JSON.parse(rawdata);
   res.json(student)
