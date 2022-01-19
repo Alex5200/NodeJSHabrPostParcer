@@ -1,1 +1,11 @@
-{"version":"1.0.0","name":"nodeparceer","dependencies":{"cheerio":{"version":"1.0.0-rc.10"},"express":{"version":"4.17.2"},"nodemon":{"version":"2.0.15"},"react":{"version":"17.0.2"},"request-promise":{"version":"4.2.6"},"request":{"version":"2.88.2"}}}
+{
+  "version": "1.0.0",
+  "name": "nodeparceer",
+  "dependencies": {
+    "cheerio": { "version": "1.0.0-rc.10" },
+    "express": { "version": "4.17.2" },
+    "nodemon": { "version": "2.0.15" },
+    "request-promise": { "version": "4.2.6" },
+    "request": { "version": "2.88.2" }
+  }
+}
