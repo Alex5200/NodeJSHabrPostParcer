@@ -1,0 +1,19 @@
+{
+  "name": "nodeparceer",
+  "version": "1.0.0",
+  "description": "its app for description",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Alexandr Lyachov",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
